@@ -1,0 +1,13 @@
+.banner-fixed{
+	height: 50vh;
+	background-image: url("back.png");
+	margin: 48px 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+@media (min-width: 576px) {
+	.banner{
+		background-position: right;
+	}
+}

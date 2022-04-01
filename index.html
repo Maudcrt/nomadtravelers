@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Blog" content="Préparez vos prochains voyage grâce à mes conseils">
+	<title>Nomad Travelers</title>
+	<script src="https://kit.fontawesome.com/f97629847d.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="terre.png" type="image/x-icon">
+</head>
+<body>
+<br>
+<center><img src="logo-nomadtravelers.png" alt="logo"width="350"></center>
+	<br>
+	<ul class="list-inline">
+		<li><a href="#profil">A PROPOS</a></li>
+		<li><a href="#destis">DESTINATIONS</a></li>
+		<li><a href="#vidéo">VIDÉOS</a></li>
+		<li><a href="#contact">CONTACT</a></li>
+		<li><i class="fa-solid fa-magnifying-glass"></i></li>
+	</ul>
+	
+<div class="banner-fixed">
+</div>
+
+	
+<div id="profil"> 
+	<div class="card-test">
+	<div class="card-1">
+		<img src="profil.jpg" alt="profil" class="img-profil"width="40">
+		<div class="text-p">
+			<h1>Moi c'est Maud, la fondatrice de ce blog
+			</h1>
+				<div class="text">
+				<p>
+				Passionnée de voyage depuis mon plus jeune âge, j’ai plus que jamais développé cette passion de me nourrir de cultures totalement différentes de la mienne.
+				</p> 
+				</div>
+		</div>
+	</div>
+	</div>
+</div>
+
+
+<div id="destis"></div> 
+	<div class="card-test">
+		<h1><center>Derniers articles</center></h1>
+
+<!-- Container section -->
+<div class="container">
+
+<!-- Cards section -->
+	<div class="cards">
+		<div class="card-white">
+			<img src="budapest.jpg" alt=«budapest»>
+			<p>12 mars 2022</p>
+			<h2>3 jours à Budapest : les spots immanquables !</h2>
+			<p>Le bastion des pêcheurs est sans hésiter notre plus gros coup de coeur du week-end !</p>
+		</div>
+		<div class="card-white">
+			<img src="dolomites.jpg" alt="dolomites">
+			<p>30 août 2021</p>
+			<h2>Roadtrip d'une semaine dans les Dolomites</h2>
+			<p>Les dolomites se situe dans le Nord de l’Italie (à la frontière de l'Autriche).</p>
+		</div>
+		<div class="card-white">
+			<img src="seychelles.jpg" alt="seychelles">
+			<p>16 août 2021</p>
+			<h2>10 jours aux Seychelles</h2>
+			<p>Où aller aux Seychelles, quelles îles choisir, quand partir, quel itinéraire et quel budget?</p>
+		</div>
+		<div class="card-white">
+			<img src="sicile.jpg" alt="sicile">
+			<p>27 juillet 2020</p>
+			<h2>Découverte de la Sicile en roadtrip</h2>
+			<p>Amoureuse des roadtrips et de la dolce vita italienne, la Sicile est une île qui m’a toujours fait envie.</p>
+		</div>
+		<div class="card-white">
+			<img src="marrakech.jpg" alt="marrackech">
+			<p>01 mars 2020</p>
+			<h2>Que faire à Marrakech ?</h2>
+			<p>Située au pied des montagnes de l'Atlas, Marrakech est surnommée "la ville rouge".</p>
+		</div>
+		<div class="card-white">
+			<img src="jordanie.jpeg" alt="jordanie">
+			<p>30 avril 2019</p>
+			<h2>Roadtrip en Jordanie</h2>
+			<p>Embarquez immédiatement pour un voyage dépaysant et enrichissant!</p>
+		</div>
+	</div>
+</div>
+</div>
+	<a href="#" class="btn-pink">Plus d'articles</a>
+<!-- Video section -->
+<div id="vidéo">
+<div class="card-test bg-white">
+	<h1><center>Ma dernière vidéo</center></h1>
+	<br>
+	<iframe width="600" height="415" src="https://www.youtube.com/embed/xiFl-jyRL34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+	<br>
+	&ensp;
+</div>
+</div>
+<!-- Formulaire section -->
+<center>
+<div class="card-test bg-white">
+<div id="contact"> 
+	<div class="contactez-moi">
+  		<h1>Contactez-moi</h1>
+  		<p>Un problème, une question concernant un voyage ?
+  		<br>
+  		 N’hésitez pas à utiliser ce formulaire pour prendre contact avec moi !</p>
+   </div>
+   	
+	  <form action="/page-traitement-donnees" method="post">
+	    <div>
+	      <label for="nom">Votre nom</label>
+	      <input type="text" id="nom" name="nom" placeholder="Martin" required>
+	    </div>
+	    <div>
+	      <label for="email">Votre e-mail</label>
+	      <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+	    </div>
+	    <div>
+	      <label for="sujet">Quel est le sujet de votre message ?</label>
+	      <select name="sujet" id="sujet" required>
+	          <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+	          <option value="probleme-compte">Préparatif</option>
+	          <option value="question-produit">Destination</option>
+	          <option value="suivi-commande">Vols</option>
+	          <option value="autre">Autre...</option>
+	       </select>
+	    </div>
+	    <div>
+	      <label for="message">Votre message</label>
+	      <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+	    </div>
+	    <div>
+	     <a href="#" class="btn-pink">Envoyer mon message</a>
+	    </div>
+	  </form>
+   </div>
+</div>
+</div>
+	</div></center>
+<!-- Reseaux sociaux section -->
+	<ul class="list-inline">
+		<li><a href="https://www.instagram.com/travel_withmaud/"><i class="fa-brands fa-instagram fa-xl"></i>
+		</a> 
+		</li>
+		<li><a href="https://www.tiktok.com/@maud.crt"><i class="fa-brands fa-tiktok fa-xl"></i>
+		</a>
+		</li>
+		<li><a href="https://www.youtube.com/channel/UCR6MwslL8NZeUbT6JRk7kJA"><i class="fa-brands fa-youtube fa-xl"></i>
+		</a>
+		</li>
+	</ul>
+
+		
+</body>
+</html>
